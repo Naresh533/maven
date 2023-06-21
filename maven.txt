@@ -1,2 +1,9 @@
 Intro
-Maven, a Yiddish word meaning accumulator of knowledge, began as an attempt to simplify the build processes in the Jakarta Turbine project. There were several projects, each with their own Ant build files, that were all slightly different. JARs were checked into CVS. We wanted a standard way to build the projects, a clear definition of what the project consisted of, an easy way to publish project information, and a wayto share JARs across several projects.
+Maven, a Yiddish word meaning accumulator of knowledge, began as an attempt to simplify the build processes in the Jakarta Turbine project. There were several projects, each with their own Ant build files, that were all slightly different. JARs were checked into CVS. We wanted a standard way to build the projects, a clear definition of what the project consisted of, an easy way to publish project information, and a wayto share JARs across several projects
+Feature Summary
+===============
+The following are the key features of Maven in a nutshell:
+
+Simple project setup that follows best practices - get a new project or module started in seconds
+Consistent usage across all projects - means no ramp up time for new developers coming onto a project
+Superior dependency management including automatic updating, dependency closures (also known as transitive dependencies).
