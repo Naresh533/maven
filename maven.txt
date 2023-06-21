@@ -7,3 +7,8 @@ The following are the key features of Maven in a nutshell:
 Simple project setup that follows best practices - get a new project or module started in seconds
 Consistent usage across all projects - means no ramp up time for new developers coming onto a project
 Superior dependency management including automatic updating, dependency closures (also known as transitive dependencies).
+Available Plugins
+=================
+Maven is - at its heart - a plugin execution framework; all work is done by plugins. Looking for a specific goal to execute? This page lists the core plugins and others. There are the build and the reporting plugins:
+
+Build plugins will be executed during the build and they should be configured in the <build/> element from the POM.
